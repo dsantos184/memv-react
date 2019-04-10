@@ -1,11 +1,9 @@
 .containerZap
 {
-    width: 170px;
-    height: 40px;
     background: #39b54a;
     color: #fff;
     border-radius: 10px !important;
-    padding: 5px 15px;
+    padding: 8px 15px;
     line-height: 1.43;
     font-size: 12px;
     display: flex;
