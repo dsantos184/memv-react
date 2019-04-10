@@ -1,0 +1,17 @@
+.dadoBarraSuperior
+{
+    font-weight: bold;
+    color: #194177;
+    line-height: 28px;
+}
+
+.dadoBarraSuperior:hover
+{
+    text-decoration: underline;
+}
+
+.icon
+{
+    font-size: 22px;
+    color: #ff9c00;
+}
