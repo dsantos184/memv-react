@@ -1,8 +1,38 @@
 .containerZap
 {
+    width: 170px;
+    height: 40px;
     background: #39b54a;
     color: #fff;
     border-radius: 10px !important;
-    padding: 5px 5px 5px 15px;
+    padding: 5px 15px;
     line-height: 1.43;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconZap
+{
+    font-size: 28px;
+    margin-right: 5px;
+    font-weight: bold;
+    float: left;
+}
+
+.textZap
+{
+    display: inline-block
+}
+
+.telZap
+{
+    font-weight: bold;
+    display: block;
+}
+
+.containerZap > a
+{
+    color: inherit;
 }

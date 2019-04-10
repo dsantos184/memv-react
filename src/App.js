@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './css/generic/reset.css'
 import './css/base/base.css'
 import './App.css';
@@ -7,9 +7,10 @@ import{
   Route
 } from 'react-router-dom'
 
-import LinkBarraSuperior from './components/LinkBarraSuperior/index'
-import ComoFunciona from './pages/ComoFunciona/index'
+import LinkBarraSuperior from './components/LinkBarraSuperior'
+import ComoFunciona from './pages/ComoFunciona'
 import ZapBarraSuperior from './components/ZapBarraSuperior'
+import MenuRegulamentos from './components/MenuRegulamentos'
 
 import Logo from './img/logo-cabecalho.png'
 
@@ -17,7 +18,7 @@ import Logo from './img/logo-cabecalho.png'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <Fragment>
         <header>
           <div className="barraSuperior">
             <Router>
@@ -28,7 +29,7 @@ class App extends Component {
 
               <img src={Logo} className="logoCabecalho"/>
 
-              <LinkBarraSuperior to="/" iconClass="fa-bars" texto="Regulamento"/>
+              <MenuRegulamentos/>
 
               <ZapBarraSuperior/>
 
@@ -37,7 +38,7 @@ class App extends Component {
             </Router>
           </div>
         </header>
-      </div>
+      </Fragment>
     );
   }
 }
