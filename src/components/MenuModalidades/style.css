@@ -1,0 +1,26 @@
+.itemModalidade
+{
+    width: 7%;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    background: #ff9c00;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.itemModalidade:not(:last-child)
+{
+    margin-bottom: 0.5%;
+}
+
+.itemModalidade:hover
+{
+    background-color: #194177;
+}

@@ -5,12 +5,13 @@ import{
     Route
   } from 'react-router-dom'
   
-  import LinkBarraSuperior from '../LinkBarraSuperior'
-  import ComoFunciona from '../../pages/ComoFunciona'
-  import ZapBarraSuperior from '../ZapBarraSuperior'
-  import MenuRegulamentos from '../MenuRegulamentos'
-  
-  import Logo from '../../img/logo-cabecalho.png'
+import './style.css'
+
+import LinkBarraSuperior from '../LinkBarraSuperior'
+import ComoFunciona from '../../pages/ComoFunciona'
+import ZapBarraSuperior from '../ZapBarraSuperior'
+import MenuRegulamentos from '../MenuRegulamentos'
+import MenuModalidades from '../MenuModalidades'
 
 export default class Header extends Component
 {
@@ -26,7 +27,7 @@ export default class Header extends Component
 
                     <LinkBarraSuperior to="/como-function" iconClass="fa-info-circle" texto="Como Funciona"/>
 
-                    <img src={Logo} className="logoCabecalho"/>
+                    <img src={require('../../img/logo-cabecalho.png')} className="logoCabecalho"/>
 
                     <MenuRegulamentos/>
 
@@ -40,7 +41,7 @@ export default class Header extends Component
 
                 {/*CONTAINER COM O MENU DE MODALIDADES */}
                 <section className="containerMenuModalidades">
-                
+                    <MenuModalidades />
                 </section>
                 {/*FIM CONTAINER COM O MENU DE MODALIDADES */}
 
