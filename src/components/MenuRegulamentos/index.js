@@ -1,6 +1,10 @@
-import React from 'react';
+import React from 'react'
+
+import './style.css'
 
 import LinkBarraSuperior from '../LinkBarraSuperior'
+import {Link} from 'react-router-dom'
+
 
 const MenuRegulamentos = (props) => (
     <ul className="menuRegulamentos">
@@ -9,7 +13,24 @@ const MenuRegulamentos = (props) => (
         </li>
         <li>
             <ul className="subMenuRegulamentos">
-                
+                <li className="menuItem">
+                    <Link className="actionSubmenu" to="/regulamento-ensino-basico">Ensino Básico</Link>
+                </li>
+                <li className="menuItem">
+                    <Link className="actionSubmenu" to="/regulamento-curso-tecnico">Curso Técnico</Link>
+                </li>
+                <li className="menuItem">
+                    <Link className="actionSubmenu" to="/regulamento-curso-profissionalizante">Curso Profissionalizante</Link>
+                </li>
+                <li className="menuItem">
+                    <Link className="actionSubmenu" to="/regulamento-curso-eja">Curso EJA(supletivo)</Link>
+                </li>
+                <li className="menuItem">
+                    <Link className="actionSubmenu" to="/regulamento-curso-idiomas">Idiomas</Link>
+                </li>
+                <li className="menuItem">
+                    <Link className="actionSubmenu" to="/regulamento-graduacao">Graduação</Link>
+                </li>
             </ul>
         </li>
     </ul>

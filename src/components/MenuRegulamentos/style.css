@@ -1,0 +1,35 @@
+.subMenuRegulamentos
+{
+    width: 190px;
+    position: absolute;
+    display: none;
+}
+
+.menuRegulamentos:hover .subMenuRegulamentos
+{
+    display: block;
+}
+
+.subMenuRegulamentos > .menuItem
+{
+    border-bottom: dashed 1px #ffe8c4;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.subMenuRegulamentos > .menuItem:hover
+{
+    background: #ff9c00;
+    border-bottom: dashed 1px #fff;
+}
+
+.menuItem > .actionSubmenu
+{
+    color: #194177;
+}
+
+.menuItem:hover .actionSubmenu
+{
+    color: #FFF;
+}
+

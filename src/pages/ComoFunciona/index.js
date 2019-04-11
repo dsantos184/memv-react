@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const ComoFunciona = (props) =>(
     <h1>Como funciona</h1>
