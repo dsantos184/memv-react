@@ -12,17 +12,27 @@ import './App.css';
 import Header from './components/Header'
 
 import ComoFunciona from './pages/ComoFunciona'
+import Home from './pages/Home'
 
 
 class App extends Component {
   render() {
     return (
       <Fragment>
+
         <Router>
+          
           <Header />
-        
-          <Route exact path="/como-funciona" component={ComoFunciona} />
+
+          <main className="containerPrincipal">
+            
+            <Route exact path="/" component={Home} />
+            <Route exact path="/como-funciona" component={ComoFunciona} />
+
+          </main>
+
         </Router>
+
       </Fragment>
     );
   }

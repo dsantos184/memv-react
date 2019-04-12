@@ -1,7 +1,9 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 
 const ComoFunciona = (props) =>(
-    <h1>Como funciona</h1>
+    <Fragment>
+        <h1>Como funciona</h1>
+    </Fragment>
 )
 
 export default ComoFunciona
