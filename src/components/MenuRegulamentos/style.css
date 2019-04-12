@@ -3,6 +3,7 @@
     width: 190px;
     position: absolute;
     display: none;
+    background-color: #fff;
 }
 
 .menuRegulamentos:hover .subMenuRegulamentos

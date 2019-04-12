@@ -1,0 +1,50 @@
+.containerBarraPassos
+{
+    width: 100%;
+    height: 58px;
+    color: #FFF;
+    background-color:#194177;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.containerBarraPassos > .sigaPassos
+{
+    width: 9%;
+    background-color:#ff9c00;
+    border: solid #FFF;
+    border-width: 5px 5px 5px 0px;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.42857143;
+    padding: 2px;
+    float: left;
+}
+
+.containerPassos
+{
+    height: 58px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titlePassos, .textPassos
+{
+    display: block;
+}
+
+.titlePassos
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.iconEtapas
+{
+    font-size: 28px;
+}

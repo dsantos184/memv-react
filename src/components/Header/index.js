@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
 import{
     BrowserRouter as Router,
@@ -12,40 +12,45 @@ import ComoFunciona from '../../pages/ComoFunciona'
 import ZapBarraSuperior from '../ZapBarraSuperior'
 import MenuRegulamentos from '../MenuRegulamentos'
 import MenuModalidades from '../MenuModalidades'
+import BarraEtapas from '../BarraEtapas'
 
 export default class Header extends Component
 {
     render()
     {
         return(
-            <header>
-                {/*BARRA SUPERIOR */}
-                <section className="barraSuperior">
-                    <Router>
+            <Fragment>
+                <header>
+                    {/*BARRA SUPERIOR */}
+                    <section className="barraSuperior">
+                        <Router>
 
-                    <LinkBarraSuperior to="/0800 038 6068" iconClass="fa-phone" texto="0800 038 6068"/>
+                        <LinkBarraSuperior to="/0800 038 6068" iconClass="fa-phone" texto="0800 038 6068"/>
 
-                    <LinkBarraSuperior to="/como-function" iconClass="fa-info-circle" texto="Como Funciona"/>
+                        <LinkBarraSuperior to="/como-function" iconClass="fa-info-circle" texto="Como Funciona"/>
 
-                    <img src={require('../../img/logo-cabecalho.png')} className="logoCabecalho"/>
+                        <img src={require('../../img/logo-cabecalho.png')} className="logoCabecalho"/>
 
-                    <MenuRegulamentos/>
+                        <MenuRegulamentos/>
 
-                    <ZapBarraSuperior/>
+                        <ZapBarraSuperior/>
 
-                    <Route exact path="/como-funciona" component={ComoFunciona}/>
+                        <Route exact path="/como-funciona" component={ComoFunciona}/>
 
-                    </Router>
-                </section>
-                {/*FIM BARRA SUPERIOR */}
+                        </Router>
+                    </section>
+                    {/*FIM BARRA SUPERIOR */}
 
-                {/*CONTAINER COM O MENU DE MODALIDADES */}
-                <section className="containerMenuModalidades">
-                    <MenuModalidades />
-                </section>
-                {/*FIM CONTAINER COM O MENU DE MODALIDADES */}
+                    {/*CONTAINER COM O MENU DE MODALIDADES */}
+                    <section className="containerMenuModalidades">
+                        <MenuModalidades />
+                    </section>
+                    {/*FIM CONTAINER COM O MENU DE MODALIDADES */}
 
-            </header>
+                </header>
+
+                <BarraEtapas />
+            </Fragment>
         )
     }
 }
