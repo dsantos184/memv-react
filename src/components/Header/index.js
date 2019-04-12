@@ -1,14 +1,8 @@
 import React, { Component, Fragment } from 'react'
-
-import{
-    BrowserRouter as Router,
-    Route
-  } from 'react-router-dom'
   
 import './style.css'
 
 import LinkBarraSuperior from '../LinkBarraSuperior'
-import ComoFunciona from '../../pages/ComoFunciona'
 import ZapBarraSuperior from '../ZapBarraSuperior'
 import MenuRegulamentos from '../MenuRegulamentos'
 import MenuModalidades from '../MenuModalidades'
@@ -23,11 +17,11 @@ export default class Header extends Component
                 <header>
                     {/*BARRA SUPERIOR */}
                     <section className="barraSuperior">
-                        <Router>
+                        
 
                         <LinkBarraSuperior to="/0800 038 6068" iconClass="fa-phone" texto="0800 038 6068"/>
 
-                        <LinkBarraSuperior to="/como-function" iconClass="fa-info-circle" texto="Como Funciona"/>
+                        <LinkBarraSuperior to="/como-funciona" iconClass="fa-info-circle" texto="Como Funciona"/>
 
                         <img src={require('../../img/logo-cabecalho.png')} className="logoCabecalho"/>
 
@@ -35,9 +29,7 @@ export default class Header extends Component
 
                         <ZapBarraSuperior/>
 
-                        <Route exact path="/como-funciona" component={ComoFunciona}/>
-
-                        </Router>
+                       
                     </section>
                     {/*FIM BARRA SUPERIOR */}
 
