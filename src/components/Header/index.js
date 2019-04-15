@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react'
-import {Link} from 'react-router-dom'
 
 import './style.css'
 
@@ -25,7 +24,7 @@ export default class Header extends Component
                         <LinkBarraSuperior to="/como-funciona" iconClass="fa-info-circle" texto="Como Funciona"/>
 
                         
-                        <img src={require('../../img/logo-cabecalho.png')} className="logoCabecalho"/>
+                        <img src={require('../../img/logo-cabecalho.png')} className="logoCabecalho" alt="Minha Escola Minha Vida"/>
                         
 
                         <MenuRegulamentos/>

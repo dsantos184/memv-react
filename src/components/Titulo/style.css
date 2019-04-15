@@ -1,0 +1,9 @@
+.titulo
+{
+    color: #585f69;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif !important;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
