@@ -1,0 +1,80 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.containerCarousel
+{
+    width: 93.4%;
+    overflow: hidden;
+    display: flex;
+}
+
+.carousel
+{
+    display: flex;
+    align-items: center;
+}
+
+.sublistCarousel
+{
+    display: flex;
+}
+
+.sublistCarousel > .itemSublistCarousel
+{
+    width: 199px;
+    height: 220px;
+    text-align: center;
+    border: 1px solid #194177;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.itemSublistCarousel > span
+{
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.sublistCarousel > .itemSublistCarousel:not(:last-child)
+{
+    margin-right: 20px;
+}
+
+.itemSublistCarousel > .logoEscola
+{
+    width: 100%;
+    height: 67px;
+    margin-bottom: 24px;
+}
+
+.arrowCarousel
+{
+    color: #194177;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-size: 36px
+}
+
+.arrowLeft
+{
+    margin-right: 20px;
+}
+
+.arrowRight
+{
+    margin-left: 20px;
+}
+
+.destaque
+{
+    color: #ff9c00;
+}
+
+.btn
+{
+    margin-top: 20%;
+}

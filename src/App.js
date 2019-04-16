@@ -15,6 +15,7 @@ import ComoFunciona from './pages/ComoFunciona'
 import Home from './pages/Home'
 
 
+
 class App extends Component {
   render() {
     return (
@@ -32,7 +33,6 @@ class App extends Component {
           </main>
 
         </Router>
-
       </Fragment>
     );
   }
