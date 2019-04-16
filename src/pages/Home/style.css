@@ -13,3 +13,28 @@
     width: 100%;
     margin-top: 35px; 
 }
+
+
+.containerCartaRenovacao
+{
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff5e6;
+    margin-top: 70px;
+    line-height: 1.6;
+}
+
+.containerCartaRenovacao .btn
+{
+    margin-top: 10px!important
+}
+
+.containerRenovacao,
+.containerCarta
+{
+    width: 300px;
+    text-align: center;
+}
+

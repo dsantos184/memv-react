@@ -19,3 +19,14 @@
 {
     background-color: #2c579e;
 }
+
+.btnLaranja
+{
+    background:#ff9c00;
+
+}
+
+.btnLaranja:hover
+{
+    background:#de8902 ;
+}
