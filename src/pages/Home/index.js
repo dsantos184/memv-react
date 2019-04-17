@@ -36,7 +36,7 @@ const Home = (props) =>(
                     Clique no botão abaixo para buscar e fazer                    
                     o download da sua carta de aprensentação.
                 </p>
-                <Botao  urlTo="/boleto-renovacao" classBtn="btnLaranja"  btnText="Gerar Carta de Aprensentação" />
+                <Botao  urlTo="/buscar-carta-renovacao" classBtn="btnLaranja"  btnText="Gerar Carta de Aprensentação" />
             </div>
 
         </section>

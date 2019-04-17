@@ -38,3 +38,90 @@
 {
     display: block;
 }
+
+.containerLinks
+{
+    height: 325px;;
+    background-color: #122b54;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 50px 1%;
+    box-sizing: border-box;
+}
+
+.containerLinks .linkRodape
+{
+    color: inherit;
+}
+
+.containerLinks .tituloRodape
+{
+    color: #ff9c00;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.listRodape
+{
+    width: 144px;
+}
+
+.itemRodape:not(:last-child)
+{
+    margin-bottom: 10px
+}
+
+.endereco
+{
+    width: 246px;
+}
+
+.enderecoRodape
+{
+    line-height: 20px;
+}
+
+.tituloRedesSociais
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.linkRedesSociais
+{
+    color: #122b54 !important;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.linkRedesSociais > i
+{
+    font-size: 18px;
+}
+
+.linkRedesSociais:not(:last-child)
+{
+    margin-right: 10px;
+}
+
+.containerCorp
+{
+    background-color: #122b54;
+    color: #FFF;
+    text-align: center;
+}
+
+.containerCorp  .memv
+{
+    text-transform: uppercase;
+}
