@@ -2,16 +2,18 @@ import React, {Fragment} from 'react'
 
 import Titulo from '../../components/Titulo'
 
+import './style.css'
+
 const ComoFunciona = (props) =>(
     <Fragment>
         
         <section className="containerTitulo">
             <Titulo tituloText="Como Funciona" />
         </section>
-]       
+
         <section className="containerComoFunciona">
             
-            <div className="containerList">
+            <div className="containerList comoFunciona">
 
                 <ul className="listaComoFunciona">
                     <li className="itemComoFunciona">
@@ -32,6 +34,14 @@ const ComoFunciona = (props) =>(
                     </li>
                     <li className="itemComoFunciona">
                         <i className="fa fa-check iconList"></i>
+                        A seleção eletrônica leva apenas alguns segundos.
+                    </li>
+                    <li className="itemComoFunciona">
+                        <i className="fa fa-check iconList"></i>
+                        Sendo selecionado será direcionado para tela de cadastramento.
+                    </li>
+                    <li className="itemComoFunciona">
+                        <i className="fa fa-check iconList"></i>
                         Após cadastro você será direcionado para tela de pagamento da taxa de adesão.   ( veja valor no menu  “Dúvidas Frequentes” ).
                     </li>
                     <li className="itemComoFunciona">
@@ -45,7 +55,7 @@ const ComoFunciona = (props) =>(
                 </ul>
             </div>
 
-            <div className="containerImagem">
+            <div className="containerImagem comoFunciona">
                 <img 
                     src={require('../../img/img_box_lateral.jpg')}
                     className="imgLateral"

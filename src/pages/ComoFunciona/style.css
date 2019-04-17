@@ -1,0 +1,25 @@
+.containerList
+{
+    float: left;
+}
+
+.containerImagem
+{
+    float: right;
+}
+
+.comoFunciona
+{
+    width: 49%;
+}
+
+.iconList
+{
+    color: #4765a0;
+    margin-right: 5px;
+}
+
+.itemComoFunciona:not(:last-child)
+{
+    margin-bottom: 20px;
+}

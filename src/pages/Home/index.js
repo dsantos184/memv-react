@@ -2,7 +2,6 @@ import React, {Fragment} from 'react'
 import Titulo from '../../components/Titulo'
 import Carousel from '../../components/Carousel'
 import Botao from '../../components/Botao'
-import Rodape from '../../components/Rodape'
 
 import './style.css'
 
@@ -40,8 +39,6 @@ const Home = (props) =>(
             </div>
 
         </section>
-
-        <Rodape />
 
     </Fragment>
 )

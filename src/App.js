@@ -14,6 +14,7 @@ import Header from './components/Header'
 import ComoFunciona from './pages/ComoFunciona'
 import Home from './pages/Home'
 
+import Rodape from './components/Rodape'
 
 
 class App extends Component {
@@ -31,6 +32,8 @@ class App extends Component {
             <Route exact path="/como-funciona" component={ComoFunciona} />
 
           </main>
+
+          <Rodape />
 
         </Router>
       </Fragment>
